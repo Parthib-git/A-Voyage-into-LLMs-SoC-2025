@@ -6,7 +6,7 @@ In the assignment 1, the handwritten digits from the MNIST dataset have been cla
 
 
 <p align="center">
-  <img src="Images/MNIST Predictions.png" width="1200",height=1500/>
+  <img src="Images/MNIST Predictions.png" width="1500",height=1800/>
 </p>
 
 
@@ -16,7 +16,7 @@ In the Assignment 2, an LSTM based RNN model has been trained to predict the sen
 
 
 <p align="center">
-  <img src="Images/Sentiment Test.png" width="1200",height=1500/>
+  <img src="Images/Sentiment Test.png" width="1500",height=1800/>
 </p>
 
 

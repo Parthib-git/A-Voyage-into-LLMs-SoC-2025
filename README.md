@@ -6,7 +6,7 @@ In the Assignment 2, an LSTM based RNN model has been trained to predict the sen
 
 
 <p align="center">
-  <img src="Images/Sentiment Test.png" width="500"/>
+  <img src="Images/Sentiment Test.png" width="1200",height=1500/>
 </p>
 
 

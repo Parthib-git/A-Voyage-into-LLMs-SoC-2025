@@ -5,6 +5,6 @@ This is a project that deepdives into the Large Language Model by starting from 
 In the Assignment 2, an LSTM based RNN model has been trained to predict the sentiment of a text as 'Positive' or 'Negative.' 
 
 <p align="center">
-  <img src="Images/Sentiment Loss" alt="Image 1" width="45%"/>
-  <img src="Images/Sentiment Accuracy.png" alt="Image 2" width="45%"/>
+  <img src="Images/Sentiment Loss" alt="Sentiment Loss" width="45%"/>
+  <img src="Images/Sentiment Accuracy.png" alt="Sentiment Accuracy" width="45%"/>
 </p>

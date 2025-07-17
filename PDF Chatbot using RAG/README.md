@@ -1,38 +1,31 @@
-# PDF Q&A Chatbot
+# PDF CHATBOT USING RAG
 
-An interactive chatbot that allows users to upload a PDF, process its content, and ask questions to get relevant answers based on the document. Built using Gradio, LangChain, HuggingFace Transformers, and ChromaDB.
+An interactive chatbot that allows users to upload a PDF, process its content, and ask questions to get relevant answers based on the document. Built using Gradio, LangChain, HuggingFace Transformers, and ChromaDB. Primarily build and tested in Google Colab using T4 Tesla GPU.
 
 ---
 
-## Features
+## Project Stucture
 
-- Upload and preview PDF documents
-- Extract, clean, and chunk text from PDFs
-- Embed chunks using HuggingFace sentence-transformers
-- Store and search chunks using Chroma vector database
+- Upload and preview PDF documents using **gradio_pdf**.
+- Extract, clean, and chunk text from PDFs using **pdfplumber**,**regex** and **NLTKTextSplitter** (For better semantic retention).
+- Embed chunks using **HuggingFace sentence-transformers//multi-qa-MiniLM-L6-cos-v1**.
+- Store and search chunks using **ChromaDB**.
 - Ask natural language questions based on the document
-- Returns both the answer and the source chunks used for reasoning
-- Styled, user-friendly Gradio interface
+- Makes 2 more questions by paraphrasing the user-given question using paraphrasing model **humarin/chatgpt_paraphraser_on_T5_base**.
+- Searches the database for best matching chunks by ranking them using **similarity_search_with_score** from ChromaDB Database.
+- Makes a prompt using a boilerplate code for prompt making with concise instructions to the LLM.
+- Uses the model **meta-llama/Llama-2-7b-chat** from **HuggingFace**.
+- Returns both the answer and the source chunks used for reasoning for transparency
+- Styled **Gradio** interface for better user-friendliness.
 
 ---
 
-## Tech Stack
-
-- **LangChain**: Prompting and retrieval-augmented generation
-- **HuggingFace Transformers**: Pretrained language models
-- **sentence-transformers**: Semantic text embeddings
-- **ChromaDB**: Local vector storage and similarity search
-- **Gradio**: Web-based interactive interface
-- **pdfplumber**: PDF parsing and text extraction
-- **NLTK**: Natural language sentence-level chunking
-
----
 
 ## Installation
 
 Install all required dependencies using:
 
-```bash
+```
 pip install -q pdfplumber langchain langchain-community langchain_huggingface \
   chromadb huggingface_hub sentence-transformers nltk torch \
   gradio transformers accelerate gradio_pdf

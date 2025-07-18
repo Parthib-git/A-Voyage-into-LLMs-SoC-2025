@@ -91,13 +91,18 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
 ---
 
 ## Results
-
- <p align="center">
-  <img src="/QnA Results/Question 1.png" width="45%" />
-   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="/QnA Results/Question 1.png" width="45%" />
-</p>
-
+The following images show the question given to the LLM and it's response on the left, and the corresponding part in the PDF it should be coming from on the right side.
+<table>
+  <tr>
+    <td>Question 1</td>
+     <td>The corresponding part in</td>
+     
+  </tr>
+  <tr>
+    <td><img src="QnA Results/Question 1.png" width=270 height=480></td>
+    <td><img src="QnA Results/Context 1.png" width=270 height=480></td>
+  </tr>
+ </table>
 
 ## Future Enhancements
 

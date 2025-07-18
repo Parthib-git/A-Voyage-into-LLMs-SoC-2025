@@ -115,6 +115,12 @@ The following images show the question given to the LLM and it's response on the
   </tr>
 </table>
 
+
+## UI 
+
+<p>
+  <img src = "Full UI Image.png">
+</p>
 ## Future Enhancements
 
 - Section-aware chunking (headers and subheaders)

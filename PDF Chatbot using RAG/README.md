@@ -101,6 +101,18 @@ The following images show the question given to the LLM and it's response on the
     <td><img src="QnA Results/Question 1.png" width="100%"></td>
     <td><img src="QnA Results/Context 1.png" width="100%"></td>
   </tr>
+  <tr>
+    <td><img src="QnA Results/Question 2.png" width="100%"></td>
+    <td><img src="QnA Results/Context 2.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="QnA Results/Question 3.png" width="100%"></td>
+    <td><img src="QnA Results/Context 3.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="QnA Results/Question 4.png" width="100%"></td>
+    <td><img src="QnA Results/Context 4.png" width="100%"></td>
+  </tr>
 </table>
 
 ## Future Enhancements

@@ -121,6 +121,8 @@ The following images show the question given to the LLM and it's response on the
 <p>
   <img src = "Full UI Image.png">
 </p>
+
+
 ## Future Enhancements
 
 - Section-aware chunking (headers and subheaders)

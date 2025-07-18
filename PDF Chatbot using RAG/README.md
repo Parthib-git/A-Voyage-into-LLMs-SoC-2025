@@ -98,7 +98,7 @@ The following images show the question given to the LLM and it's response on the
   </tr>
   <tr>
     <td><img src="QnA Results/Question 2.png" width="100%"></td>
-    <td><img src="QnA Results/Context 2.png" width="100%"></td>
+    <td><img src="QnA Results/Context 2.png" width="100%"><img src="QnA Results/Context 2-2.png" width="100%"></td>
   </tr>
   <tr>
     <td><img src="QnA Results/Question 3.png" width="100%"></td>

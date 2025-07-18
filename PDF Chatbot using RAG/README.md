@@ -90,7 +90,7 @@ The following images show the question given to the LLM and it's response on the
 <table>
   <tr>
     <td style="width: 60%;><strong>Question and Response (Zoom in to read)</strong></td>
-    <td style="width: 60%;><strong>From PDF</strong></td>
+    <td style="width: 40%;><strong>From PDF</strong></td>
   </tr>
   <tr>
     <td><img src="QnA Results/Question 1.png" width="100%"></td>

@@ -3,6 +3,25 @@
 An interactive chatbot that allows users to upload a PDF, process its content, and ask questions to get relevant answers based on the document. Built using Gradio, LangChain, HuggingFace Transformers, and ChromaDB. Primarily build and tested in Google Colab using T4 Tesla GPU.
 
 ---
+## Features
+
+- Upload and preview PDF documents
+- Extract, clean, and chunk text from PDFs
+- Embed chunks using HuggingFace sentence-transformers
+- Store and search chunks using Chroma vector database
+- Ask natural language questions based on the document
+- Returns both the answer and the source chunks used for reasoning
+- Styled, user-friendly Gradio interface
+
+## Installation
+
+Install all required dependencies using:
+
+```
+pip install -q pdfplumber langchain langchain-community langchain_huggingface \
+  chromadb huggingface_hub sentence-transformers nltk torch \
+  gradio transformers accelerate gradio_pdf
+```
 
 ## Project Stucture
 
@@ -20,20 +39,7 @@ An interactive chatbot that allows users to upload a PDF, process its content, a
 
 ---
 
-
-## Installation
-
-Install all required dependencies using:
-
-```
-pip install -q pdfplumber langchain langchain-community langchain_huggingface \
-  chromadb huggingface_hub sentence-transformers nltk torch \
-  gradio transformers accelerate gradio_pdf
-```
-
----
-
-## Project Structure
+## Description of functions
 
 - `read_and_clean_pdf(PDF)`  
   Extracts and cleans text from each page of the uploaded PDF using `pdfplumber`.
@@ -42,13 +48,22 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
   Uses `NLTKTextSplitter` to split the cleaned text into overlapping sentence-based chunks for semantic coherence.
 
 - `embed_and_store_chunks(chunks)`  
-  Encodes chunks using HuggingFace embeddings and stores them in a `Chroma` vector store for similarity-based retrieval.
+  Encodes chunks using HuggingFace embeddings and stores them in a `ChromaDB` vector store for similarity-based retrieval.
+
+- `generate_paraphrases(text, num_return_sequences=2)`
+  Generated 2 paraphrases for the question for better context retrieval.
+
+- `prompt(query, relevant_chunks)`
+  Generates a prompt for the LLM using a boilerplate.
 
 - `retrieve_relevant_chunks(query, vector_db)`  
-  Searches for the most relevant text chunks given a query using vector similarity.
+  Searches for the most relevant text chunks given a query using similarity_search_with_score.
 
-- `answer_query_with_llm(query, vector_db, model, tokenizer)`  
-  Constructs a prompt from the query and retrieved chunks, sends it to the language model, and returns both the answer and the chunks used.
+- `process_pdf_to_vector_database(pdf_file)`
+  Streamlines the preprocessing by taking the pdf as input and giving the vector database as output.
+  
+- `answer_query_with_llm(query, vector_db, llm_model, llm_tokenizer)`  
+  Streamlines the prompt building, relevant chunk retrieval and LLM answer generation into one function.
 
 - **Gradio UI**  
   A two-part interface that includes:
@@ -66,7 +81,7 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
    Click "Process PDF" to extract and prepare the content for querying.
 
 3. **Ask a Question**  
-   Input a natural-language question related to the document.
+   Input a question related to the document and press the "Ask" button.
 
 4. **View Response**  
    The app returns:
@@ -75,20 +90,22 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
 
 ---
 
+## Results
+
+
+
 ## Future Enhancements
 
 - Section-aware chunking (headers and subheaders)
 - Metadata tagging (e.g., page numbers in retrieved context)
-- Improved speed and caching mechanisms
-- Option to download answers and source references
-- Multi-PDF support and indexing
-- Deployment on Hugging Face Spaces or Streamlit Cloud
+- Improved speed 
+- Multi-PDF support
+- Deployment on Hugging Face Spaces/Streamlit Cloud/Vercel/Netlify or elsewhere
 
 ---
 
 ## Notes
 
-- This project is designed for educational and research purposes.
-- To use the interactive Gradio interface, run this notebook in a Colab or local Jupyter environment.
-- GitHub preview may not support full rendering of interactive widgets or Gradio blocks.
 
+- GitHub preview does not support rendering of Gradio blocks.
+- To use the interactive Gradio interface, run this notebook in a Colab or local Jupyter environment.

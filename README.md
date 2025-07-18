@@ -28,5 +28,5 @@ In the final project, a Retrieval Augmented Generation (RAG) enabled PDF Chatbot
 
 ---------
 
-[Here's how the final UI looks like -->](Full UI Image.png)
+[Here's how the final UI looks like -->]("Full UI Image.png")
 

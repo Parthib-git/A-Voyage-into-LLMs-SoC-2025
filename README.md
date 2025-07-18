@@ -26,5 +26,7 @@ In the final project, a Retrieval Augmented Generation (RAG) enabled PDF Chatbot
   <img src="PDF Chatbot using RAG/QnA Results/Question 4.png" width="1500",height=1800/>
 </p>
 
+---------
 
+[Here's how the final UI looks like -->](Full UI Image.png)
 

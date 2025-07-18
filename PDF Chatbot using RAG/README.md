@@ -1,6 +1,6 @@
 # PDF CHATBOT USING RAG
 
-An interactive chatbot that allows users to upload a PDF, process its content, and ask questions to get relevant answers based on the document. Primarily build and tested in Google Colab using T4 Tesla GPU.
+An chatbot that allows users to upload a PDF, process its content, and ask questions to get relevant answers based on the document by using Retrieval Augmented Generation. Primarily build and tested in Google Colab using T4 Tesla GPU.
 
 ---
 ## Features

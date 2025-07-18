@@ -111,7 +111,7 @@ The following images show the question given to the LLM and it's response on the
 </table>
 
 
-## UI 
+## UI  build on Gradio
 
 <p>
   <img src = "Full UI Image.png">

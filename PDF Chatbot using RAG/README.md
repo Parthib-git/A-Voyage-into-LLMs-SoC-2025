@@ -89,8 +89,8 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
 The following images show the question given to the LLM and it's response on the left, and the corresponding part in the PDF it should be coming from on the right side.
 <table>
   <tr>
-    <td><strong>Question and Response (Zoom in to read)</strong></td>
-    <td><strong>From PDF</strong></td>
+    <td style="width: 60%;><strong>Question and Response (Zoom in to read)</strong></td>
+    <td style="width: 60%;><strong>From PDF</strong></td>
   </tr>
   <tr>
     <td><img src="QnA Results/Question 1.png" width="100%"></td>

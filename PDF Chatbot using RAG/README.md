@@ -65,12 +65,7 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
 - `answer_query_with_llm(query, vector_db, llm_model, llm_tokenizer)`  
   Streamlines the prompt building, relevant chunk retrieval and LLM answer generation into one function.
 
-- **Gradio UI**  
-  A two-part interface that includes:
-  - PDF upload and processing
-  - Query input and dynamic answer display
 
----
 
 ## Usage Instructions
 

@@ -13,15 +13,6 @@ An chatbot that allows users to upload a PDF, process its content, and ask quest
 - Returns both the answer and the source chunks used for reasoning
 - Styled, user-friendly Gradio interface
 
-## Installation
-
-Install all required dependencies using:
-
-```
-pip install -q pdfplumber langchain langchain-community langchain_huggingface \
-  chromadb huggingface_hub sentence-transformers nltk torch \
-  gradio transformers accelerate gradio_pdf
-```
 
 ## Project Stucture
 
@@ -68,6 +59,10 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
 
 
 ## Usage Instructions
+
+1. **Download** the PDF_Chatbot_Using_RAG.ipynb file and open in Google Colab with Tesla T4 GPU connected.
+
+1. **Install all the dependencies** from the first cell starting with  `!pip install -q...` and then run the other cells, the model loading will take time.
 
 1. **Upload PDF**  
    Use the Gradio UI to upload a PDF document.
@@ -132,4 +127,3 @@ The following images show the question given to the LLM and it's response on the
 
 
 - GitHub preview does not support rendering of Gradio blocks.
-- To use the interactive Gradio interface, run this notebook in a Colab with T4 Tesla GPU connected.

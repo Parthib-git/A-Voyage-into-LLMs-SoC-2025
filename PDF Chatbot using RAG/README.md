@@ -94,6 +94,7 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
 
  <p align="center">
   <img src="/QnA Results/Question 1.png" width="45%" />
+   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="/QnA Results/Question 1.png" width="45%" />
 </p>
 

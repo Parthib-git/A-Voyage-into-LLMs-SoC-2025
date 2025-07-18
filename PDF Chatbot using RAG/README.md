@@ -89,24 +89,24 @@ pip install -q pdfplumber langchain langchain-community langchain_huggingface \
 The following images show the question given to the LLM and it's response on the left, and the corresponding part in the PDF it should be coming from on the right side.
 <table>
   <tr>
-    <td style="width: 60%;><strong>Question and Response (Zoom in to read)</strong></td>
-    <td style="width: 40%;><strong>From PDF</strong></td>
+    <td style="width: 60%"><strong>Question and Response (Zoom in to read)</strong></td>
+    <td style="width: 40%;"><strong>From PDF</strong></td>
   </tr>
   <tr>
-    <td style="width: 60%;><img src="QnA Results/Question 1.png" width="100%"></td>
-    <td style="width: 40%;><img src="QnA Results/Context 1.png" width="100%"></td>
+    <td style="width: 60%;"><img src="QnA Results/Question 1.png" width="100%"></td>
+    <td style="width: 40%;"><img src="QnA Results/Context 1.png" width="100%"></td>
   </tr>
   <tr>
-    <td style="width: 60%;><img src="QnA Results/Question 2.png" width="100%"></td>
-    <td style="width: 40%;><img src="QnA Results/Context 2.png" width="100%"><img src="QnA Results/Context 2-2.png" width="100%"></td>
+    <td style="width: 60%;"><img src="QnA Results/Question 2.png" width="100%"></td>
+    <td style="width: 40%;"><img src="QnA Results/Context 2.png" width="100%"><img src="QnA Results/Context 2-2.png" width="100%"></td>
   </tr>
   <tr>
-    <td style="width: 60%;><img src="QnA Results/Question 3.png" width="100%"></td>
-    <td style="width: 40%;><img src="QnA Results/Context 3.png" width="100%"></td>
+    <td style="width: 60%;"><img src="QnA Results/Question 3.png" width="100%"></td>
+    <td style="width: 40%;"><img src="QnA Results/Context 3.png" width="100%"></td>
   </tr>
   <tr>
-    <td style="width: 60%;><img src="QnA Results/Question 4.png" width="100%"></td>
-    <td style="width: 40%;><img src="QnA Results/Context 4.png" width="100%"></td>
+    <td style="width: 60%;"><img src="QnA Results/Question 4.png" width="100%"></td>
+    <td style="width: 40%;"><img src="QnA Results/Context 4.png" width="100%"></td>
   </tr>
 </table>
 

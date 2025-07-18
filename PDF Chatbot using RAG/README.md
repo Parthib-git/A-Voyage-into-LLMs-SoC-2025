@@ -129,4 +129,4 @@ The following images show the question given to the LLM and it's response on the
 
 
 - GitHub preview does not support rendering of Gradio blocks.
-- To use the interactive Gradio interface, run this notebook in a Colab or local Jupyter environment.
+- To use the interactive Gradio interface, run this notebook in a Colab with T4 Tesla GPU connected.

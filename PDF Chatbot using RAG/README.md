@@ -99,7 +99,7 @@ The following images show the question given to the LLM and it's response on the
      
   </tr>
   <tr>
-    <td><img src="QnA Results/Question 1.png" width=100% height=980></td>
+    <td><img src="QnA Results/Question 1.png" width=100% height=1500></td>
     <td><img src="QnA Results/Context 1.png" width=100% height=980></td>
   </tr>
  </table>

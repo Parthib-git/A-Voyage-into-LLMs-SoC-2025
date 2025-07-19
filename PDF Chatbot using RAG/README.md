@@ -92,7 +92,7 @@ The following images show the question given to the LLM and it's response on the
     <td style="width: 40%;"><img src="QnA Results/Context 1.png" width="100%"></td>
   </tr>
   <tr>
-    <td style="width: 60%;"><img src="QnA Results/Question 2.png" width="100%"></td>
+    <td style="width: 60%;"><img src="QnA Results/Question 2.png" width="100%"> Given, the question only asked about the availability of the scope, the answer is to the point.</td>
     <td style="width: 40%;"><img src="QnA Results/Context 2.png" width="100%"><img src="QnA Results/Context 2-2.png" width="100%"></td>
   </tr>
   <tr>

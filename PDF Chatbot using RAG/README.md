@@ -88,7 +88,7 @@ The following images show the question given to the LLM and it's response on the
     <td style="width: 40%;"><strong>From PDF</strong></td>
   </tr>
   <tr>
-    <td style="width: 60%;"><img src="QnA Results/Question 1.png" width="100%"></td>
+    <td style="width: 60%;"><img src="QnA Results/Question 1.png" width="100%"> Pretty accurate, only added the attendance part from a part of the following section, sectionwise chunking should solve this.</td>
     <td style="width: 40%;"><img src="QnA Results/Context 1.png" width="100%"></td>
   </tr>
   <tr>

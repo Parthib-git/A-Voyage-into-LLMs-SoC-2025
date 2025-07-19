@@ -62,7 +62,7 @@ An chatbot that allows users to upload a PDF, process its content, and ask quest
 
 1. **Download** the PDF_Chatbot_Using_RAG.ipynb file and open in Google Colab with Tesla T4 GPU connected.
 
-1. **Install all the dependencies** from the first cell starting with  `!pip install -q...` and then run the other cells, the model loading will take time.
+1. **Install all the dependencies** from the first cell starting with  `!pip install -q...` and then run the other cells and put your own HF token that can be acquired from <a href = 'https://huggingface.co/meta-llama/Llama-2-7b-chat-hf'> HERE</a>, the model loading will take time.
 
 1. **Upload PDF**  
    Use the Gradio UI to upload a PDF document.

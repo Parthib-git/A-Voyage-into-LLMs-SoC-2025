@@ -96,7 +96,7 @@ The following images show the question given to the LLM and it's response on the
     <td style="width: 40%;"><img src="QnA Results/Context 2.png" width="100%"><img src="QnA Results/Context 2-2.png" width="100%"></td>
   </tr>
   <tr>
-    <td style="width: 60%;"><img src="QnA Results/Question 3.png" width="100%"></td>
+    <td style="width: 60%;"><img src="QnA Results/Question 3.png" width="100%"> It came close but missed the crucial part of "First" semester, gave a general answer for online registration. Not queit satisfactory.</td>
     <td style="width: 40%;"><img src="QnA Results/Context 3.png" width="100%"></td>
   </tr>
   <tr>

@@ -120,6 +120,8 @@ The following images show the question given to the LLM and it's response on the
 - Improved speed 
 - Multi-PDF support
 - Deployment on Hugging Face Spaces/Streamlit Cloud/Vercel/Netlify or elsewhere
+- Image Support using Optical Character Recognition (OCR)
+
 
 ---
 
